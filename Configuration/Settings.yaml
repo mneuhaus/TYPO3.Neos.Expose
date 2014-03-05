@@ -1,0 +1,9 @@
+#                                                                        #
+# Settings Configuration for the Expose package                          #
+#                                                                        #
+
+TYPO3:
+  Neos:
+    typoScript:
+      autoInclude:
+        'TYPO3.Neos.Expose': TRUE

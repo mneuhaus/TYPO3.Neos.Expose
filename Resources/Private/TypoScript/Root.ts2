@@ -1,0 +1,7 @@
+##
+# Expose Plugin
+#
+prototype(TYPO3.Neos.Expose:Plugin) < prototype(TYPO3.Neos:Plugin) {
+	@class = 'TYPO3\\Neos\Expose\\ExposePluginImplementation'
+	package = 'TYPO3.Neos.Expose'
+}

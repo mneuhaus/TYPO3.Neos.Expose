@@ -1,0 +1,13 @@
+{
+    "name": "typo3/neos-expose",
+    "type": "typo3-flow-package",
+    "description": "Add description here",
+    "require": {
+        "typo3/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TYPO3\\Neos\\Expose": "Classes"
+        }
+    }
+}
