@@ -1,5 +1,5 @@
 <?php
-namespace TYPO3\Neos\Expose\Post;
+namespace TYPO3\Neos\Expose;
 
 /*                                                                        *
  * This script belongs to the TYPO3 Flow package "TYPO3.Expose".            *

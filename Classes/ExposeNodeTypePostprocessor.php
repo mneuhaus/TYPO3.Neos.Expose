@@ -26,6 +26,7 @@ class ExposeNodeTypePostprocessor implements NodeTypePostprocessorInterface {
 
 	/**
 	 * @var \TYPO3\Flow\Reflection\ReflectionService
+	 * @Flow\Inject
 	 */
 	protected $reflectionService;
 
