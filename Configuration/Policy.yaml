@@ -4,9 +4,9 @@
 
 resources:
   methods:
-    TYPO3_Neos_Expose_PluginAccess: 'method(TYPO3\Neos\Expose\Controller\(Plugin|List|Index|New|Edit|Delete|Detail)Controller->.*Action())'
+    TYPO3_Expose_PluginAccess: 'method(TYPO3\Expose\Controller\(Plugin|List|Index|New|Edit|Delete|Detail)Controller->.*Action())'
 
 acls:
   Everybody:
     methods:
-      TYPO3_Neos_Expose_PluginAccess: GRANT
+      TYPO3_Expose_PluginAccess: GRANT
