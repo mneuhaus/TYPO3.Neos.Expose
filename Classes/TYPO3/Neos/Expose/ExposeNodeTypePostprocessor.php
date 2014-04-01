@@ -65,7 +65,7 @@ class ExposeNodeTypePostprocessor implements NodeTypePostprocessorInterface {
 				\\\\(?P<controllerName>[a-z\\\\]+)Controller
 				$/ix', $exposeController, $matches
 			);
-			$values[$matches['controllerName']] = array(
+			$values[$matches['packageKey'] . ':' . $matches['controllerName']] = array(
 				'label' => $matches['packageKey'] . ': ' . $matches['controllerName']
 			);
 		}

@@ -6,8 +6,8 @@
         "typo3/flow": "*"
     },
     "autoload": {
-        "psr-4": {
-            "TYPO3\\Neos\\Expose\\": "Classes"
+        "psr-0": {
+            "TYPO3\\Neos\\Expose": "Classes"
         }
     }
 }
