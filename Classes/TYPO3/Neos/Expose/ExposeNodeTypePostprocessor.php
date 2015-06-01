@@ -52,7 +52,7 @@ class ExposeNodeTypePostprocessor implements NodeTypePostprocessorInterface {
 	}
 
 	public function getControllers() {
-		$exposeControllers = $this->reflectionService->getAllSubClassNamesForClass('\TYPO3\Expose\Controller\AbstractController');
+		$exposeControllers = $this->reflectionService->getAllSubClassNamesForClass('\Flowpack\Expose\Controller\AbstractExposeController');
 
 		$values = array('');
 		foreach ($exposeControllers as $exposeController) {
